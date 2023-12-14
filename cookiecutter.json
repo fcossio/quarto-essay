@@ -1,0 +1,17 @@
+{
+    "project_name": "Essay Short Name",
+    "essay_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "My name",
+    "title": "My Essay Title",
+    "subtitle": "My subtitle or course name",
+    "author_email": "myemail@kth.se",
+    "date": "2024-01-15",
+    "documentclass":["article", "report", "book"],
+    "papersize": ["a4", "letter"],
+    "pdf-engine": ["xelatex", "pdflatex", "lualatex", "tectonic", "latexmk"],
+    "toc-depth": 2,
+    "toc-title": "Contents",
+    "cite-method": ["natbib", "biblatex"],
+    "biblio-style": ["plain", "abbrv"]
+}
+  
